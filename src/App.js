@@ -1,13 +1,13 @@
 
 import React, { Component } from 'react';
-import Intro from './components/Intro';
+import Home from './pages/Home';
 import './app.styles.scss';
 
 class App extends Component {
     render() {
         return (
             <div className="container">
-              <Intro/>
+              <Home/>
             </div>
         );
     }
