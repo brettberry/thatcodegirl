@@ -1,76 +1,22 @@
-
-.H-left-stroke {
+svg {
   fill: none;
   stroke: black;
   stroke-width: 3px;
-  stroke-dasharray: 124px;
-  stroke-dashoffset: 124px;
-  animation: H-left-move 20s ease forwards;
+  stroke-dasharray: 800;
+  stroke-dashoffset: 100;
+  opacity: 0;
+  animation: 3s outline infinite alternate;
 }
 
-.H-mid-stroke {
-  fill: linear-gradient(#000, #fff);
-  stroke-dasharray: 37px;
-  stroke-dashoffset: 7px;
-  animation: H-mid-move 1s linear;
-  transform-origin: 348.045px 91.749px;
-}
-
-.H-right-stroke {
-  stroke-dasharray: 124px;
-  stroke-dashoffset: 124px;
-  animation: H-right-move 13s ease forwards;
-}
-
-@keyframes H-left-move {
-  0% {
-    stroke-dashoffset: 124px;
+@keyframes outline {
+  from {
+    opacity: 0;
+    stroke-dashoffset: 400;
+    stroke-dasharray: 400;
   }
-  5% {
-    stroke-dashoffset: 0px;
-  }
-  100% {
-    stroke-dashoffset: 0px;
+
+  to {
+    opacity: 1;
+    stroke-dashoffset: 0;
   }
 }
-
-@keyframes H-mid-move {
-  0% {
-    transform: scaleY(0);
-  }
-  100% {
-      transform: scaleY(1);
-  }
-}
-
-@keyframes H-right-move {
-  0% {
-    stroke-dashoffset: 124px;
-  }
-  5% {
-    stroke-dashoffset: 124px;
-  }
-  10% {
-    stroke-dashoffset: 0px;
-  }
-  100% {
-    stroke-dashoffset: 0px;
-  }
-}
-
-// .A-left-stroke {
-//   fill: linear-gradient(#000, #fff);
-//   stroke-dasharray: 37px;
-//   stroke-dashoffset: 7px;
-//   animation: A-mid-move 1s linear;
-//   transform-origin: 437.599px 157.581px;
-// }
-//
-// @keyframes H-mid-move {
-//   0% {
-//     transform: scaleX(0) scaleY(0);
-//   }
-//   100% {
-//     transform: scaleX(1) scaleY(1);
-//   }
-// }
