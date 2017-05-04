@@ -1,0 +1,10 @@
+$header-font-family: "poppins", Sans-serif;
+
+@mixin header-font {
+  font-family: $header-font-family;
+  font-size: 5em;
+  margin: 0;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
