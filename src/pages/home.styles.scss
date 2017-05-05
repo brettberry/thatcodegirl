@@ -63,20 +63,3 @@
     transition: opacity 1s 0.3s ease-in;
   }
 }
-
-.rightPanel {
-  position: fixed;
-  top: 0;
-  right: 0;
-  width: 45%;
-  height: 100%;
-}
-
-.leftPanel {
-  background-color: white;
-  position: fixed;
-  top: 0;
-  left: 0;
-  width: 55%;
-  height: 100%;
-}
