@@ -34,9 +34,34 @@
   }
 }
 
-.testSection {
+.section {
+  display: flex;
+  justify-content: center;
   width: 100%;
-  height: 1000px;
+  height: 750px;
+  padding: 75px;
+
+  .welcome {
+    @include header-font;
+  }
+}
+
+.testSection {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  margin-top: 100px;
+  background-color: black;
+
+  .followButton {
+    width: 200px;
+    height: 75px;
+    background-color: black;
+    border-radius: 5px;
+    position: absolute;
+  }
 }
 
 .navBarContainer {
@@ -62,4 +87,10 @@
     opacity: 1;
     transition: opacity 1s 0.3s ease-in;
   }
+}
+
+.footer {
+  width: 100%;
+  height: 500px;
+  background-color: black;
 }

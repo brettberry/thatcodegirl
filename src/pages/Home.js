@@ -19,8 +19,7 @@ class Home extends Component {
     let userFeed = new Instafeed({
            get: 'user',
            userId: '5363964088',
-           accessToken: '5363964088.e84be6d.692afbca4b494225a3e6aee1ef9ebba4',
-           resolution: 'standard_resolution'
+           accessToken: '5363964088.e84be6d.692afbca4b494225a3e6aee1ef9ebba4'
        });
        userFeed.run();
   }
@@ -34,8 +33,11 @@ class Home extends Component {
         <div className={classnames('navBarContainer', this.state.showNavBar && 'showNavBar')}>
           <Menu className="menu" onClick={() => this.setState({ showMenu: !this.state.showMenu })}/>
         </div>
-        <div className="testSection" id="instafeed">
+        <div className="section">
+          <h1 className="welcome">welcome</h1>
         </div>
+        <div className="testSection" id="instafeed"/>
+        <div className="footer"/>
       </div>
     );
   }
