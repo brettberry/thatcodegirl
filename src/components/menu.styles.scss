@@ -80,7 +80,7 @@
   }
 
   .item {
-    @include header-font;
+    @include menu;
     position: relative;
     transform: translateX(400px);
     transition: all 0.5s ease;

@@ -1,0 +1,9 @@
+@import '../constants.scss';
+
+.title {
+  @include header;
+}
+
+.date {
+  @include subheader;
+}

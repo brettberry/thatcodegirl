@@ -49,7 +49,7 @@
   padding: 75px;
 
   .welcome {
-    @include header-font;
+    @include header;
   }
 }
 

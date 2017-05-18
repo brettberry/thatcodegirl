@@ -1,11 +1,30 @@
 $header-font-family: "poppins", Sans-serif;
 
-@mixin header-font {
+@mixin header {
   font-family: $header-font-family;
-  font-size: 3em;
-  margin: 0;
+  font-size: 4em;
   color: black;
   text-transform: uppercase;
   letter-spacing: 1px;
-  margin-top: 25px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+@mixin subheader {
+  font-family: $header-font-family;
+  font-size: 1.5em;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
+}
+
+@mixin menu {
+  font-family: $header-font-family;
+  font-size: 3em;
+  color: black;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  text-align: center;
+  margin: 10px;
 }

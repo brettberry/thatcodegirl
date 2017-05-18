@@ -36,9 +36,7 @@ class Home extends Component {
         <div className={classnames('navBarContainer', this.state.showNavBar && 'showNavBar')}>
           <Menu className="menu" onClick={() => this.setState({ showMenu: !this.state.showMenu })}/>
         </div>
-        <div className="section" id="nextSection">
-          {/* <h1 className="welcome">welcome</h1> */}
-        </div>
+        <div className="section" id="nextSection"/>
         <div className="footer"/>
         <div className="testSection" id="instafeed"/>
       </div>
